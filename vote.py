@@ -29,9 +29,9 @@ def clear_output():
 
 
 class Target:
-    def __init__(self, name, pool, target, referer):
+    def __init__(self, name, poll, target, referer):
         self.name = name
-        self.pool = pool
+        self.poll = poll
         self.target = target
         self.referer = referer
 
@@ -53,11 +53,11 @@ class Target:
 
     @property
     def post_url(self):
-        return f'https://voting.playbuzz.com/ranking/{self.pool}/{self.target}'
+        return f'https://voting.playbuzz.com/ranking/{self.poll}/{self.target}'
 
     @property
     def get_url(self):
-        return f'https://voting.playbuzz.com/ranking/{self.pool}'
+        return f'https://voting.playbuzz.com/ranking/{self.poll}'
 
     def count(self):
         try:
@@ -79,13 +79,13 @@ class Target:
 TARGET_LIST = [
     Target(
         name='Thammy Gretchen',
-        pool='7dcfd1a8-2261-4e5e-afff-c23e8d5bbe83',
+        poll='7dcfd1a8-2261-4e5e-afff-c23e8d5bbe83',
         target='9c85d7fa-96a0-48bd-a86c-d9457992fd8b',
         referer='https://istoe.com.br/50-mais-sexy-vote-no-homem-mais-sensual-de-2018/'
     ),
     Target(
         name='Pabllo Vittar',
-        pool='66ba04e6-5d23-495a-a438-2cdeb1fcb3e3',
+        poll='66ba04e6-5d23-495a-a438-2cdeb1fcb3e3',
         target='99c34317-c969-40f3-b668-af197e678db4',
         referer='https://istoe.com.br/mulheres-mais-sensuais-2018/'
     ),
