@@ -6,9 +6,9 @@ We have here a great opportunity to elect the best man and the best woman in Bra
 This voting is important to our cause because we have two very
 important humans running:
 
-- **Thammy Gretchen**, a woman, running for the best man of 2018, and
+- **Thammy Gretchen**, a trans-man, running for the best man of 2018, and
 
-- **Pabllo Vittar**, a man, running for the best woman of 2018.
+- **Pabllo Vittar**, a trans-woman, running for the best woman of 2018.
 
 Help our cause, make our word reach the entire world!
 
