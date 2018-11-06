@@ -100,6 +100,5 @@ def voting_machine():
         time.sleep(30)
 
 
-print("initializing")
 if __name__ == '__main__':
     voting_machine()
